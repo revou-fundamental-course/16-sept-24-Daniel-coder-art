@@ -1,1 +1,110 @@
-/* ini css /*
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header Styles */
+header {
+    background-color: #42b549;
+    color: white;
+    padding: 1rem;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    height: 40px;
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+}
+
+nav ul li {
+    margin-left: 1rem;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Main Content Styles */
+main {
+    padding: 2rem;
+}
+
+section {
+    margin-bottom: 2rem;
+}
+
+h1, h2, h3 {
+    color: #42b549;
+}
+
+/* Our Profile Styles */
+.photo-banner img {
+    width: 100%;
+    max-height: 300px;
+    object-fit: cover;
+}
+
+/* Message Us Form Styles */
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+}
+
+form div {
+    margin-bottom: 1rem;
+}
+
+label {
+    display: block;
+    margin-bottom: 0.5rem;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 0.5rem;
+}
+
+button {
+    background-color: #42b549;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #42b549;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    nav {
+        flex-direction: column;
+    }
+
+    nav ul {
+        margin-top: 1rem;
+    }
+
+    .logo img {
+        margin-bottom: 1rem;
+    }
+}
